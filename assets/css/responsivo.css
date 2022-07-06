@@ -1,4 +1,12 @@
 @media screen and (min-width: 0) {
+    .menu__link {
+        padding: .5rem .365rem;
+    }
+
+    .menu__link:hover, .menu__link.ativo {
+        color: #0073e6;
+    }
+
     .destaques__principal, .destaques__categorias {
         grid-column: 1 / 5;
     }
@@ -42,6 +50,15 @@
 }
 
 @media screen and (min-width: 768px) {
+    .menu__link {    
+        padding: .5rem 1rem;
+    }
+
+    .menu__link:hover, .menu__link.ativo {
+        color:#333333;;
+        border-bottom: 2px solid #0073e6;
+    }
+
     .destaques__principal {
         grid-column: 1 / 4;
     }
